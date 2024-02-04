@@ -14,7 +14,7 @@ All the codes are tested in the following environment:
 - PyTorch 1.10
 - CUDA 11.1
 
-- ## Install
+## Install
 1. Install the spconv library from [spconv](https://github.com/traveller59/spconv).
 2. Install pytorch 1.10 `conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.1 -c pytorch -c conda-forge`
 3. Install requirements `pip install -r requirements.txt`
