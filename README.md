@@ -18,7 +18,7 @@ All the codes are tested in the following environment:
 4. Install pcdet library `python setup.py develop`
 
 ### KITTI 3D Object Detection Baselines
-Selected supported methods are shown in the below table. The results are the 3D detection performance of moderate difficulty on the *val* set of KITTI dataset.
+Selected supported methods are shown in the below table. The results are the 3D detection performance of moderate difficulty on the *val* set of KITTI dataset. All models are trained on a single RTX 3090 GPU.
 
 
 |                                             | Car@R11 | Pedestrian@R11 | Cyclist@R11  | weights |
@@ -36,11 +36,11 @@ By default, all models are trained with **a single frame** of **20% data (~32k f
 
 |    Performance@(train with 20\% Data)            | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  
 |---------------------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| [PointPillar](tools/cfgs/waymo_models/pointpillar_1x.yaml) | 71.30 |	63.02 | 67.15|58.90|58.26|56.06 |
-| [CenterPoint-Dynamic-Pillar](tools/cfgs/waymo_models/centerpoint_dyn_pillar_1x.yaml)| 71.49|63.24|74.30|66.20|66.63|64.13| 
-| [SECOND](tools/cfgs/waymo_models/second.yaml) | 71.13|62.86|65.78|57.83|	59.18 |	56.99| 
-| [PV-RCNN (CenterHead)](tools/cfgs/waymo_models/pv_rcnn_with_centerhead_rpn.yaml) | 75.17|66.59|72.19|63.17|67.27|64.76|
-| [Voxel R-CNN (CenterHead)-Dynamic-Voxel](tools/cfgs/waymo_models/voxel_rcnn_with_centerhead_dyn_voxel.yaml) | 76.18|67.76|77.95|69.28|71.15|68.53|
+| [PointPillar_FAR](tools/cfgs/waymo_models/pointpillar_1x_FAR.yaml) | 71.30 |	63.02 | 67.15|58.90|58.26|56.06 |
+| [CenterPoint_FAR-Dynamic-Pillar](tools/cfgs/waymo_models/centerpoint_dyn_pillar_1x_FAR.yaml)| 71.49|63.24|74.30|66.20|66.63|64.13| 
+| [SECOND_FAR](tools/cfgs/waymo_models/centerpoint_dyn_pillar_1x_FAR.yaml) | 71.13|62.86|65.78|57.83|	59.18 |	56.99| 
+| [PV-RCNN_FAR (AnchorHead)](tools/cfgs/waymo_models/pv_rcnn_FAR.yaml) | 75.17|66.59|72.19|63.17|67.27|64.76|
+| [Voxel R-CNN_FAR (CenterHead)-Dynamic-Voxel](tools/cfgs/waymo_models/voxel_rcnn_with_centerhead_dyn_voxel_FAR.yaml) | 76.18|67.76|77.95|69.28|71.15|68.53|
 
 
 
