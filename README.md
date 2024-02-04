@@ -32,7 +32,7 @@ Selected supported methods are shown in the below table. The results are the 3D 
 
 ### Waymo Open Dataset Baselines
 
-By default, all models are trained with **a single frame** of **20% data (~32k frames)** of all the training samples on a single RTX3090 GPU, and the results of each cell here are mAP calculated by the official Waymo evaluation metrics on the **whole** validation set (version 1.2).    
+By default, all models are trained with **a single frame** of **20% data (~32k frames)** of all the training samples on a single RTX 3090 GPU, and the results of each cell here are mAP calculated by the official Waymo evaluation metrics on the **whole** validation set (version 1.2).    
 
 |    Performance@(train with 20\% Data)            | Vec_L1 | Vec_L2 | Ped_L1 | Ped_L2 | Cyc_L1 | Cyc_L2 |  
 |---------------------------------------------|----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
