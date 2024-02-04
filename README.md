@@ -1,5 +1,5 @@
 ![](imgs/2DBN_FAR_Network_Generic.png)
-![](imgs/FAR_block.png)
+![](imgs/FAR_block.png){ width: 200px; }
 
 # FAR
 This is the official implementation of "Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications" paper, that you can download [here](). 
