@@ -58,4 +58,13 @@ All models are trained on a single RTX 3090 GPU and are available for download.
 
 
 
+## Citation
+If you find this work useful in your research, please consider cite:
+
+```
+to be added...
+```
+
+
+
 
