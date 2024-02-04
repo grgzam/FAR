@@ -28,6 +28,7 @@ Selected supported methods are shown in the below table. The results are the 3D 
 | [SECOND_FAR](tools/cfgs/kitti_models/second_FAR.yaml)       | 78.62 | 52.98 | 67.15 | [model](https://vc.ee.duth.gr:6960/index.php/s/g95yytjRRdSwAwG) |
 | [PV-RCNN_FAR](tools/cfgs/kitti_models/pv_rcnn_FAR.yaml) | 83.61 | 57.90 | 70.47 | [model](https://vc.ee.duth.gr:6960/index.php/s/g95yytjRRdSwAwG) |
 | [Voxel R-CNN_FAR (all classes)](tools/cfgs/kitti_models/voxel_rcnn_all_classes_FAR.yaml) |84.54 | - | - | [model](https://vc.ee.duth.gr:6960/index.php/s/JK3KAIC2Ze3SLG2) |
+||
 
 
 
