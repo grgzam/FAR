@@ -1,7 +1,7 @@
 ![](imgs/2DBN_FAR_Network_Generic.png)
 <img src="imgs/FAR_block.png" alt="drawing" width="400"/>
 
-# FAR
+# Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications
 This is the official implementation of "Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications" paper, that you can download [here](). 
 This project is built on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
