@@ -44,12 +44,15 @@ By default, all models are trained with **a single frame** of **20% data (~32k f
 
 
 
+### NuScenes 3D Object Detection Baselines
+All models are trained on a single RTX 3090 GPU and are available for download.
 
+|                                             | mATE | mASE | mAOE | mAVE | mAAE | mAP | NDS | download | 
+|---------------------------------------------|----------:|:-------:|:-------:|:-------:|:---------:|:-------:|:-------:|:---------:|
+| [PointPillar_FAR-MultiHead](tools/cfgs/nuscenes_models/cbgs_pp_multihead_FAR.yaml) | 33.88 | 25.99 | 31.73 | 28.57 | 20.24 | 45.38 | 58.65	 | [model](https://vc.ee.duth.gr:6960/index.php/s/bYjGx4uKny9S6E4) | 
+| [SECOND_FAR-MultiHead (CBGS)](tools/cfgs/nuscenes_models/cbgs_second_multihead_FAR.yaml) | 31.64 |	25.56 |	27.14 | 25.48 | 19.84 | 51.31 | 62.69 | [model](https://vc.ee.duth.gr:6960/index.php/s/6vc1t6m3xsqnskz) |
+| [CenterPoint_FAR-PointPillar](tools/cfgs/nuscenes_models/cbgs_dyn_pp_centerpoint_FAR.yaml) | 30.94 |	25.81 |	41.52 | 23.55 | 19.36 | 52.05 | 61.91 | [model](https://vc.ee.duth.gr:6960/index.php/s/PL5PuwSyFYBjspk) |
 
-
-
-
-||
 
 
 
