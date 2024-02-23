@@ -2,7 +2,7 @@
 <img src="imgs/FAR_block.png" alt="drawing" width="400"/>
 
 # Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications
-This is the official implementation of "Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications" paper, that you can download [here](). 
+This is the official implementation of "Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications" paper, that you can download [here](https://doi.org/10.1016/j.robot.2024.104664). 
 This project is built on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 ## Requirements
@@ -62,7 +62,15 @@ All models are trained on a single RTX 3090 GPU and are available for download.
 If you find this work useful in your research, please consider cite:
 
 ```
-to be added...
+@article{ZAMANAKOS2024104664,
+title = {Feature Aware Re-weighting (FAR) in Bird’s Eye View for LiDAR-based 3D object detection in autonomous driving applications},
+journal = {Robotics and Autonomous Systems},
+pages = {104664},
+year = {2024},
+issn = {0921-8890},
+doi = {https://doi.org/10.1016/j.robot.2024.104664},
+url = {https://www.sciencedirect.com/science/article/pii/S0921889024000472},
+author = {Georgios Zamanakos and Lazaros Tsochatzidis and Angelos Amanatiadis and Ioannis Pratikakis}}
 ```
 
 
